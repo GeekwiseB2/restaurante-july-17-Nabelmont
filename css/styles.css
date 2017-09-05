@@ -1,3 +1,40 @@
+/*Universals*/
+* {
+  transition-duration: 0.2s;
+}
+
+.min-height {
+  min-height: 600px;
+}
+
+.primary-font {
+  font-family: 'Lobster', serif;
+}
+
+.secondary-font {
+  font-family: 'Raleway', Sans-Serif;
+}
+
+.white-text {
+  color: #fff;
+}
+
+.orange-text {
+  color: #f8512f;
+}
+
+.thin-text {
+  font-weight: 300;
+}
+
+.thick-text {
+  font-weight: 700;
+}
+
+.orange-bg {
+  background-color: #F8512F;
+}
+
 /*Navbar Styles*/
 .navbar-inverse {
   background-color: transparent;
@@ -58,4 +95,18 @@
 
 #farm-bg {
   background-image: url('../img/farm-2.jpg')
+}
+
+/*Our story styles*/
+#our_story .row {
+  margin-top: 30px;
+}
+
+#our_story h1{
+  font-size: 6em;
+}
+
+.year-text {
+  position: absolute;
+  z-index: 0;
 }
