@@ -125,7 +125,7 @@
   color: rgba(149, 147, 147, 0.2);
 }
 
-/* Review */
+/* Review Styles */
 #review {
   background-image: url('../img/food_review.jpg');
   background-size: cover;
@@ -153,3 +153,5 @@
   font-size: 2em;
   text-shadow: 1px 1px 5px #0a0a0a;
 }
+
+/*Menu Styles*/
