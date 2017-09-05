@@ -1,3 +1,7 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+@import url(http://fonts.googleapis.com/css?family=Raleway:700,400,300);
+@import url(http://fonts.googleapis.com/css?family=Playfair Display);
+
 /*Universals*/
 * {
   transition-duration: 0.2s;
@@ -94,7 +98,7 @@
 }
 
 #farm-bg {
-  background-image: url('../img/farm-2.jpg')
+  background-image: url('../img/farm-2.jpg');
 }
 
 /*Our story styles*/
@@ -102,11 +106,50 @@
   margin-top: 30px;
 }
 
-#our_story h1{
+#our_story h1 {
   font-size: 6em;
+  margin-top: 0;
+  text-shadow: 1px 1px 2px #515151;
 }
 
-.year-text {
+#our_story h3 {
+  font-size: 2em;
+  margin-top: 0;
+}
+
+.story-year {
+  font-family: 'Playfair Display', serif;
+  font-size: 200px;
   position: absolute;
-  z-index: 0;
+  z-index: -1;
+  color: rgba(149, 147, 147, 0.2);
+}
+
+/* Review */
+#review {
+  background-image: url('../img/food_review.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#review .center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.review-container {
+  padding: 10px 15px;
+  background-color: rgba(20, 20, 20, 0.6);
+  border-radius: 4px;
+}
+
+.review-container h1 {
+  font-size: 5em;
+  text-shadow: 1px 1px 5px #0a0a0a;
+}
+
+.review-container p {
+  font-size: 2em;
+  text-shadow: 1px 1px 5px #0a0a0a;
 }
