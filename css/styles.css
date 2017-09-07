@@ -125,7 +125,7 @@
   color: rgba(149, 147, 147, 0.2);
 }
 
-/* Review */
+/* Review Styles */
 #review {
   background-image: url('../img/food_review.jpg');
   background-size: cover;
@@ -152,4 +152,18 @@
 .review-container p {
   font-size: 2em;
   text-shadow: 1px 1px 5px #0a0a0a;
+}
+
+/*Menu Styles*/
+#menu {
+  background-image: url('../img/black_linen.png');
+  background-size: cover;
+  background-position: center;
+}
+
+#menu .center {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }
